@@ -20,7 +20,7 @@ jobs:
         java-version: '17'
 
     - name: Compile Action class
-      run: javac ./Action.java
+      run: javac /Action.java
 
     - name: Run Action class
-      run: java -cp ./Action
+      run: java -cp /Action
